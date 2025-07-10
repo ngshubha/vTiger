@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="TestRunner1">
+ 	<classes>
+ 	<class name="vTigerCamapignsModule.CreateCampaignWithProductOpTest"/>
+ 	</classes>
+ 	</test>
+ 	
+ 	<test name="TestRunner2">
+ 	<classes>
+ 	<class name="vTigerOrganisationModule.CreateOrganisationOpTest"/>
+ 	</classes>
+ 	 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
