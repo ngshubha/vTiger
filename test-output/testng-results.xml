@@ -2,51 +2,54 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-08T08:24:24 IST" name="Default suite" finished-at="2025-07-08T08:24:44 IST" duration-ms="20409">
+  <suite started-at="2025-07-10T08:48:58 IST" name="Default suite" finished-at="2025-07-10T08:50:16 IST" duration-ms="77992">
     <groups>
+      <group name="regressionTest">
+        <method signature="CreateProductOpTest.CreateProductOpTest()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" name="CreateProductOpTest" class="vTigerProductModule.CreateProductOpTest"/>
+      </group> <!-- regressionTest -->
       <group name="smokeTest">
-        <method signature="CreateCampaignOpTest.CreateCampaignOpTest()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" name="CreateCampaignOpTest" class="vTigerCamapignsModule.CreateCampaignOpTest"/>
+        <method signature="CreateProductOpTest.CreateProductOpTest()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" name="CreateProductOpTest" class="vTigerProductModule.CreateProductOpTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2025-07-08T08:24:24 IST" name="Default test" finished-at="2025-07-08T08:24:44 IST" duration-ms="20409">
-      <class name="vTigerCamapignsModule.CreateCampaignOpTest">
-        <test-method is-config="true" signature="BS()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" started-at="2025-07-08T08:24:24 IST" name="BS" finished-at="2025-07-08T08:24:24 IST" duration-ms="11" status="PASS">
+    <test started-at="2025-07-10T08:48:58 IST" name="Default test" finished-at="2025-07-10T08:50:16 IST" duration-ms="77992">
+      <class name="vTigerProductModule.CreateProductOpTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" started-at="2025-07-10T08:48:58 IST" name="BS" finished-at="2025-07-10T08:48:58 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BT()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" started-at="2025-07-08T08:24:24 IST" name="BT" finished-at="2025-07-08T08:24:24 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BT()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" started-at="2025-07-10T08:48:58 IST" name="BT" finished-at="2025-07-10T08:48:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BT -->
-        <test-method is-config="true" signature="BC()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" started-at="2025-07-08T08:24:24 IST" name="BC" finished-at="2025-07-08T08:24:27 IST" duration-ms="3573" status="PASS">
+        <test-method is-config="true" signature="BC()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" started-at="2025-07-10T08:48:58 IST" name="BC" finished-at="2025-07-10T08:49:05 IST" duration-ms="7051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" started-at="2025-07-08T08:24:27 IST" name="BM" finished-at="2025-07-08T08:24:32 IST" duration-ms="4003" status="PASS">
+        <test-method is-config="true" signature="BM()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" started-at="2025-07-10T08:49:05 IST" name="BM" finished-at="2025-07-10T08:49:07 IST" duration-ms="1837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="CreateCampaignOpTest()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" started-at="2025-07-08T08:24:32 IST" name="CreateCampaignOpTest" finished-at="2025-07-08T08:24:42 IST" duration-ms="10733" status="PASS">
+        <test-method signature="CreateProductOpTest()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" started-at="2025-07-10T08:49:07 IST" name="CreateProductOpTest" finished-at="2025-07-10T08:50:12 IST" duration-ms="65535" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateCampaignOpTest -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" started-at="2025-07-08T08:24:42 IST" name="AM" finished-at="2025-07-08T08:24:44 IST" duration-ms="1446" status="PASS">
+        </test-method> <!-- CreateProductOpTest -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" started-at="2025-07-10T08:50:12 IST" name="AM" finished-at="2025-07-10T08:50:16 IST" duration-ms="3026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="AC()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" started-at="2025-07-08T08:24:44 IST" name="AC" finished-at="2025-07-08T08:24:44 IST" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="AC()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" started-at="2025-07-10T08:50:16 IST" name="AC" finished-at="2025-07-10T08:50:16 IST" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AC -->
-        <test-method is-config="true" signature="AT()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" started-at="2025-07-08T08:24:44 IST" name="AT" finished-at="2025-07-08T08:24:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AT()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" started-at="2025-07-10T08:50:16 IST" name="AT" finished-at="2025-07-10T08:50:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AT -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:vTigerCamapignsModule.CreateCampaignOpTest@c0c2f8d]" started-at="2025-07-08T08:24:44 IST" name="AS" finished-at="2025-07-08T08:24:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AS()[pri:0, instance:vTigerProductModule.CreateProductOpTest@2de23121]" started-at="2025-07-10T08:50:16 IST" name="AS" finished-at="2025-07-10T08:50:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
-      </class> <!-- vTigerCamapignsModule.CreateCampaignOpTest -->
+      </class> <!-- vTigerProductModule.CreateProductOpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

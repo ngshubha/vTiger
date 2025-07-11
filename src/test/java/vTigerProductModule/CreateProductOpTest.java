@@ -16,7 +16,7 @@ import vTigerPOMRepository.ProductvalidationPage;
 @Test(groups={"smokeTest","regressionTest"})
 public class CreateProductOpTest extends BaseClass{
 	
-	//I am Engineer 2-- Pushing the code
+	//Resolved the conflict-Engineer2
 	public void CreateProductOpTest() throws Throwable
 	{
 	
